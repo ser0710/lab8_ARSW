@@ -96,6 +96,13 @@ Ajuste la aplicación anterior para que pueda manejar más de un dibujo a la vez
 	git commit -m "PARTE 3".
 	```
 
+### SOLUCION
+
+![image](https://user-images.githubusercontent.com/90010884/195455105-da065f6a-40be-4b41-bd52-5590b7f3a102.png)
+![image](https://user-images.githubusercontent.com/90010884/195455122-388e2898-ccfb-4c88-aa05-452dbeb25815.png)
+![image](https://user-images.githubusercontent.com/90010884/195455127-5b19db6e-c0a5-4bce-bf38-b6e9eabaef2c.png)
+![image](https://user-images.githubusercontent.com/90010884/195455134-a446fe43-dc6f-4983-afea-df05c6e481fe.png)
+
 
 ## Parte IV.
 
