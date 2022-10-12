@@ -2,6 +2,10 @@
 ### Arquitecturas de Software - ARSW
 ### Laboratorio - Broker de Mensajes STOMP con WebSockets + HTML5 Canvas.
 
+## Integrantes
+### Juan Diego Becerra Peña
+### Sergio Andres Rozo Pulido
+
 
 
 - Conectarse con un botón
@@ -55,6 +59,11 @@ Para esto, realice lo siguiente:
 	```bash
 	git commit -m "PARTE 1".
 	```
+	
+### SOLUCION
+Como vemos en las imagenes las alertas se actualizan en las 2 pantallas 
+![image](https://user-images.githubusercontent.com/90010884/195437255-011d5279-664b-49ea-bd57-9d5552969d06.png)
+![image](https://user-images.githubusercontent.com/90010884/195437262-89afecd7-8adc-437f-9b0a-545214af0a45.png)
 
 
 ## Parte II.
