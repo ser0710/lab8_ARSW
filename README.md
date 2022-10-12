@@ -78,6 +78,10 @@ Para hacer mas útil la aplicación, en lugar de capturar las coordenadas con ca
 	```bash
 	git commit -m "PARTE 2".
 	```
+	
+### SOLUCION 
+![image](https://user-images.githubusercontent.com/90010884/195442808-69097c51-70b7-40e8-b323-1b3fc4b51877.png)
+![image](https://user-images.githubusercontent.com/90010884/195442818-3ede0508-de89-4b76-98d2-811350b18411.png)
 
 ## Parte III.
 
