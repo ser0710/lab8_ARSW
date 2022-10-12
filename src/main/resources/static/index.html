@@ -31,6 +31,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     
     <body>
         <div>
+            <select class="box" id="conectar">
+                <option value="/newpoint.">
+                    Dibujo
+                </option>
+                <option value="/newpolygon.">
+                    Poligono
+                </option>
+            </select>
             <input id="dibujoid" type="number">
             <button onclick="app.connect($('#dibujoid').val())">Connect</button>
         </div>

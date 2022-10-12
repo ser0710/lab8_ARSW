@@ -29,8 +29,16 @@ var app = (function () {
         };
     };
 
+    var addPolygonToCanvas = function(points){
+        var canvas = document.getElementById("canvas");
+        var ctx = canvas.getContext("2d");
+        ctx.fillStyle='#f00';
+        ctx.beginPath();
+        ctx.stroke();
+    };
+
     var addPointToTopic = function(point){
-        stompClient.send(topico, {}, JSON.stringify(point));
+        stompClient.send("/app"+topico, {}, JSON.stringify(point));
 //        console.log("funciona"+point);
     };
 
@@ -43,7 +51,7 @@ var app = (function () {
         //subscribe to /topic/TOPICXX when connections succeed
         stompClient.connect({}, function (frame) {
             console.log('Connected: ' + frame);
-            stompClient.subscribe(topico, function (eventbody) {
+            stompClient.subscribe("/topic"+topico, function (eventbody) {
 //                alert(eventbody);
                 var point=JSON.parse(eventbody.body);
                 addPointToCanvas(point);
@@ -59,7 +67,7 @@ var app = (function () {
 
         connect: function (dibujoid) {
             var can = document.getElementById("canvas");
-            topico = "/topic/newpoint."+dibujoid;
+            topico = "/newpoint."+dibujoid;
             //websocket connection
             connectAndSubscribe();
             alert("Dibujo No"+dibujoid);
