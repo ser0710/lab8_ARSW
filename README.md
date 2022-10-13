@@ -154,6 +154,11 @@ Para ver cómo manejar esto desde el manejador de eventos STOMP del servidor, re
 	```	
 
 
+### SOLUCION
+
+![image](https://user-images.githubusercontent.com/90010904/195475017-a18e6eb9-14f0-49c2-bc81-ee94a8ea8a83.png)
+
+
 
 ### Criterios de evaluación
 
